@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <fieldset>
+        <div class="container">
+            <div>
+                <label for="username" class="text1">Username</label><br>
+                <input type="text" name="username" class="inp1" placeholder="Enter username">
+            </div>
+            <div>
+                <label for="password" class="text1">Password</label><br>
+                <input type="password" name="password" class="inp1" placeholder="Enter password"><br>
+                <label class="text1">Your password is between 4 and 12 characters</label>
+            </div>
+            <div>
+                <label for="input_text" class="text1">Input Text Label</label><br>
+                <input type="text" class="inp2"><br>
+                <label class="text2" >Error message informing me of a problem</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox">
+                <label for="checkbox">Remember me</label>
+            </div>
+            <div>
+                <input type="checkbox" name="turn" >
+                <label>On/Off</label>
+            </div>
+            <div>
+                <input type="radio" name="radio" >
+                <label>Radio selection 1</label>
+            </div>
+            <div>
+                <input type="radio" name="radio">
+                <label>Radio selection 2</label>
+            </div>
+            <div>
+                <input type="radio" name="radio">
+                <label>Radio selection 3</label>
+            </div>
+            <div class="droptown">
+                <select name="droptown">
+                    <option value="droptown1">Droptown option 1</option>
+                    <option value="droptown2">Droptown option 2</option>
+                    <option value="droptown3">Droptown option 3</option>
+                </select>
+            </div>
+            <div class="but1">
+                <button type="reset" class="bt1">Cancel</button>
+                <button type="submit" class="bt2">Next</button>
+            </div>
+        </div>
+    </fieldset>
 </body>
 </html>

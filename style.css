@@ -1,0 +1,70 @@
+fieldset{
+    display: inline-block;
+    width: 500px;
+    font-size: 17px;
+    border: 1px solid rgb(216, 212, 212);
+    color: rgb(86, 86, 86);
+    background-color: white;
+}
+.container{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+}
+.container > div{
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+.text1{
+    font-size: 12px;
+}
+.inp1{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.inp2{
+    margin-top: 3px;
+    width: 102%;
+    border-radius: 7px;
+    height: 40px;
+    border: 2px solid red;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 17px;
+}
+.text2{
+    color: red;
+    font-size: 13px;
+}
+.droptown > select{
+    padding-left: 10px;
+    width: 103%;
+    height: 45px;
+    font-size: 14px;
+    border: 2px solid rgb(23, 54, 232);
+    border-radius: 7px;
+    color: rgb(86, 86, 86);
+    background-color: white;
+}
+button{
+    width: 150px;
+    margin-bottom: 15px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(23, 54, 232);
+}
+.bt1{
+    border: 1px solid rgb(23, 54, 232) ;
+    background-color: white;
+}
+.bt2{
+    margin-left: 71px;
+    background-color:rgb(23, 54, 232);
+    color: white;
+    border: 1px solid rgb(23, 54, 232) ;
+}
